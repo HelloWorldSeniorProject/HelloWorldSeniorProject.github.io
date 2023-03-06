@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="base.css" rel="stylesheet" type="text/css" />
+    <script src="navbar.js"></script>
+    <title>Hello World! - Semester 1</title>
+</head>
+<body>
+    <nav-bar></nav-bar>
+    <div class="container">
+        <div>
+            <h3>Project Plan</h1>
+            <a href="#">Plan</a>
+            <a href="#">Presentation</a>
+        </div>
+        <div>
+            <h3>Milestone 1</h3>
+            <a href="#">Requirements</a>
+            <a href="#">Design</a>
+            <a href="#">Test</a>
+            <a href="#">Presentation</a>
+            <a href="#">Progress Evaluation</a>
+        </div>
+        <div>
+            <h3>Milestone 2</h3>
+            <a href="#">Presentation</a>
+            <a href="#">Progress Evaluation</a>
+        </div>
+        <div>
+            <h3>Milestone 3</h3>
+            <a href="#">Presentation</a>
+            <a href="#">Progress Evaluation</a>
+        </div>
+    </div>
+    <style>
+        .container {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            height: 100vh;
+        }
+
+        .container div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container div a {
+            border-radius: 12px;
+            background-color: #3e54ac;
+            padding: 12px;
+            margin: 4px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .container div a:hover {
+            background-color: #bface2;
+            color: black;
+        }
+    </style>
+</body>
+</html>
