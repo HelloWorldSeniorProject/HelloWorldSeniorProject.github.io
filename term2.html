@@ -9,6 +9,63 @@
     <title>Hello World! - Semester 2</title>
 </head>
 <body>
-    <nav-bar />
+    <nav-bar></nav-bar>
+    <div class="container">
+        <div>
+            <h3>Project Plan</h1>
+            <a href="#">Plan</a>
+            <a href="#">Presentation</a>
+        </div>
+        <div>
+            <h3>Milestone 4</h3>
+            <a href="#">Presentation</a>
+            <a href="#">Progress Evaluation</a>
+        </div>
+        <div>
+            <h3>Milestone 5</h3>
+            <a href="#">Poster</a>
+            <a href="#">E-Book Page</a>
+            <a href="#">Presentation</a>
+            <a href="#">Progress Evaluation</a>
+        </div>
+        <div>
+            <h3>Milestone 6</h3>
+            <a href="#">User and/or Developer Manual</a>
+            <a href="#">Demo Video</a>
+            <a href="#">Presentation</a>
+            <a href="#">Progress Evaluation</a>
+        </div>
+    </div>
+    <style>
+        .container {
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            height: 100vh;
+        }
+
+        .container div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container div a {
+            border-radius: 12px;
+            background-color: #3e54ac;
+            padding: 12px;
+            margin: 4px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .container div a:hover {
+            background-color: #bface2;
+            color: black;
+        }
+    </style>
 </body>
 </html>
